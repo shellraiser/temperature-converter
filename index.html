@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Converts different temperature types">
+    	<meta name="keywords" content="temperature, convert, celsius, fahrenheit,kelvin">
+
+		<title>Temperature Converter</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Temperature Converter</h1>
+
+		<section>
+			<div id="temp-converter">
+				<div id="first-temp--container">
+					<input id="first-temp--value" type="number" class="temperature" value="0"><select id="first-temp--type">
+						<optgroup label="Temperature Type" class="temp--types">
+							<option>Celsius</option>
+							<option>Fahrenheit</option>
+							<option>Kelvin</option>
+						</optgroup>
+					</select>
+				</div>
+
+				<span>=</span>
+
+				<div id="second-temp--container">
+					<input id="second-temp--value" type="number" class="temperature" value="0"><select id="second-temp--type">
+						<optgroup label="Temperature Type" class="temp--types">
+							<option>Celsius</option>
+							<option>Fahrenheit</option>
+							<option>Kelvin</option>
+						</optgroup>
+					</select>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<h2>Formula</h2>
+			<p id="temp-conversion--formula"></p>
+		<section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
