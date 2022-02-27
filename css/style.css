@@ -19,7 +19,7 @@ body {
 
 h1 {
   font-size: 3rem;
-  margin: 60px auto;
+  margin: 3.75rem auto;
   text-align: center;
   width: 100%;
   color: rgb(247, 247, 247);
@@ -27,7 +27,7 @@ h1 {
 }
 
 section {
-  margin: 60px auto;
+  margin: 3.75rem auto;
   text-align: center;
 }
 
