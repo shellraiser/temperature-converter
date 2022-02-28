@@ -8,4 +8,4 @@
 
 Pretty simple website app that converts temperatures to Celsius, Fahrenheit, and Kelvin.
 
-View code in action: https://codepen.io/shellraiser/pen/oNoabyP)
+View code in action: https://unruffled-brattain-12e5a8.netlify.app/
